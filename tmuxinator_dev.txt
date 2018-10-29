@@ -1,0 +1,26 @@
+# /home/jacob/.config/tmuxinator/dev.yml
+
+name: dev
+root: ~/Workspace
+
+# Controls whether the tmux session should be attached to automatically. Defaults to true.
+# attach: false
+
+windows:
+  - tink:
+      layout: 2bba,135x35,0,0{82x35,0,0,0,52x35,83,0[52x17,83,0,3,52x17,83,18,4]}
+      panes:
+        - #empty
+        - #empty
+        - #empty
+  - buildserver:
+      layout: 5e3a,135x35,0,0[135x26,0,0,1,135x8,0,27,5]
+      panes:
+        - #empty
+        - #empty
+  - minicom:
+      layout: main-horizontal
+      panes:
+        - list:
+            - sudo minicom
+
