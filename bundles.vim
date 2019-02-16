@@ -1,7 +1,7 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -99,7 +99,7 @@ Bundle 'altercation/vim-colors-solarized'
 "Bundle 'rickharris/vim-monokai'
 "Bundle 'tpope/vim-vividchalk'
 "Bundle 'Lokaltog/vim-distinguished'
-"Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'chriskempson/vim-tomorrow-theme'
 "Bundle 'fisadev/fisa-vim-colorscheme'
 
 filetype plugin indent on     " required!

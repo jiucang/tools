@@ -13,14 +13,13 @@ windows:
         - #empty
         - #empty
         - #empty
-  - buildserver:
-      layout: 5e3a,135x35,0,0[135x26,0,0,1,135x8,0,27,5]
-      panes:
-        - #empty
-        - #empty
-  - minicom:
-      layout: main-horizontal
-      panes:
-        - list:
-            - sudo minicom
-
+#  - buildserver:
+#      layout: 5e3a,135x35,0,0[135x26,0,0,1,135x8,0,27,5]
+#      panes:
+#        - #empty
+#        - #empty
+#  - minicom:
+#      layout: main-horizontal
+#      panes:
+#        - list:
+#            - sudo minicom
